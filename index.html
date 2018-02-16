@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Josefin+Sans|Kavivanar|Pacifico|Roboto+Mono|Ubuntu" rel="stylesheet">
+    </head>
+    <body>
+        <div id="heading">
+            <h1>Wikipedia Viewer</h1>
+
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Wikipedia article</a>
+            <br>
+            <input id="input" type="text" placeholder="search Wikipedia" required>
+            <button id="search" type="submit" onclick="getResults();"><i class="fa fa-search"></i></button>
+        </div>
+        <div id="results"></div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>

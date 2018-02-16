@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+}
+
+#heading {
+    background-color: #FEA47F;
+    padding: 2rem;
+    color: #2C3A47;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+ }
+
+ input:focus {
+    outline:0;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    transition-duration: 0.4s;
+    color: #2C3A47;
+}
+
+a:hover {
+    color: #9AECDB !important;
+    text-decoration: none;
+}
+
+.link {
+    padding: 0.8rem;
+    border: 0;
+    background-color: #2C3A47;
+    border-radius: 0.3rem;
+    color: #9AECDB;
+}
+
+.link:hover {
+    color: #9AECDB !important;
+    background-color: #F97F51;
+    text-decoration: none;
+}
+
+button {
+    background-color: #FEA47F;
+    border: 0;
+    font-size: 2rem;
+    color: #2C3A47;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #9AECDB;
+}
+
+button:focus {
+    outline:0;
+}
+
+.result {
+    background-color: #F8EFBA;
+    padding: 0 2rem 1rem 2rem;
+    margin: 3rem 3rem 1rem 3rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.6rem 0.1rem #58B19F;
+}
+
+.extract {
+    margin-top: 1.5rem;
+}
+
+/*
+font-family: 'Pacifico', cursive;
+
+
+body
+
+font-family: 'Roboto Mono', monospace;
+font-family: 'Kavivanar', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+*/
