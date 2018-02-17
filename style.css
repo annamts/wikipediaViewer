@@ -3,8 +3,9 @@ body {
     font-size: 1.2rem;
 }
 
+
 #heading {
-    background-color: #FEA47F;
+    background-color: #58B19F;
     padding: 2rem;
     color: #2C3A47;
 }
@@ -12,14 +13,16 @@ body {
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 3.5rem;
-    margin-bottom: 2rem;
     text-align: center;
+    text-shadow: 0.15rem 0.15rem #F8EFBA;
 }
 
 input {
     margin-top: 1rem;
     padding: 0.5rem;
     border-radius: 0.3rem;
+    background-color: #F8EFBA;
+    border-color: #F8EFBA;
  }
 
  input:focus {
@@ -31,6 +34,7 @@ a {
     font-size: 1.5rem;
     transition-duration: 0.4s;
     color: #2C3A47;
+    padding: 0.5rem;
 }
 
 a:hover {
@@ -48,12 +52,12 @@ a:hover {
 
 .link:hover {
     color: #9AECDB !important;
-    background-color: #F97F51;
+    background-color: #58B19F;
     text-decoration: none;
 }
 
 button {
-    background-color: #FEA47F;
+    background-color: #58B19F;
     border: 0;
     font-size: 2rem;
     color: #2C3A47;
